@@ -1,4 +1,4 @@
-# Minimum Example of Deploying SwiftUI for Apps and Web Apps Simultaneously
+# Minimum Example: cross-platform SwiftUI deployment for native and web apps
 
 This repository provides a basic example of using SwiftUI to deploy both a native iOS/macOS app and a web app with shared UI and ViewModel components.
 
