@@ -1,0 +1,52 @@
+# General macOS ignores
+.DS_Store
+*.DS_Store
+
+# Swift Package Manager
+/.build/
+/Packages
+.swiftpm/
+*.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved
+
+# Xcode
+*.xcassets
+*.xcuserstate
+*.xcworkspace
+xcuserdata/
+DerivedData/
+.idea/
+
+# Build artifacts
+*.o
+*.a
+*.dylib
+*.dll
+*.so
+*.swp
+*.tmp
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Other ignores
+*.plist
+*.lock
+*.env
+*.resolved
+
+# Project-specific ignores
+WebAppDemo/.build/
+WebAppDemo/Packages
+SharedUIComponentsDemo/.build/
+SharedUIComponentsDemo/Packages
+
+# Xcode generated scheme management files
+iOSMacAppDemo/xcuserdata/
+iOSMacAppDemo.xcodeproj/xcuserdata/
+iOSMacAppDemo.xcodeproj/project.xcworkspace/xcuserdata/
+
+# Ignore generated Assets
+iOSMacAppDemo/iOSMacAppDemo/Assets.xcassets/
+iOSMacAppDemo/iOSMacAppDemo/Preview Content/
