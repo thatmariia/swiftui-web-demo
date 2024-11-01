@@ -80,8 +80,6 @@ public typealias CPText = SwiftUI.Text
 If you need to add additional components, you can extend [CrossPlatform.swift] by defining more type aliases
 
 
-- [CrossPlatform.swift]: SharedUIComponentsDemo/Sources/SharedUIComponentsDemo/CrossPlatform.swift
-
-
+[CrossPlatform.swift]: SharedUIComponentsDemo/Sources/SharedUIComponentsDemo/CrossPlatform.swift
 
 
