@@ -12,7 +12,7 @@ import SharedUIComponentsDemo
 struct iOSMacAppDemoApp: App {
     var body: some Scene {
         WindowGroup {
-            SharedContentView(viewModel: 5)
+            SharedContentView(nr: 5)
         }
     }
 }

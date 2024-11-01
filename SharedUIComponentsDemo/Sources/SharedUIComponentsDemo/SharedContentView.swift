@@ -7,32 +7,13 @@
 
 
 public struct SharedContentView: CPView {
-    var viewModel: Int
+    var nr: Int
 
-    public init(viewModel: Int) {
-        self.viewModel = viewModel
+    public init(nr: Int) {
+        self.nr = nr
     }
 
     public var body: some CPView {
-        CPText("\(viewModel) meows pew pew")
+        CPText("you entered \(nr)")
     }
 }
-
-
-
-//public struct SharedContentView: View {
-//    @ObservedObject var viewModel: SharedContentViewModel
-//
-//    public init(viewModel: SharedContentViewModel) {
-//        self.viewModel = viewModel
-//    }
-//
-//    public var body: some View {
-//        VStack {
-//            Text(viewModel.message)
-//            Button("Update Message") {
-//                viewModel.updateMessage()
-//            }
-//        }
-//    }
-//}
